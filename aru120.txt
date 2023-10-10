@@ -1,0 +1,38 @@
+1. what is SE Linux and what are the options are there.,?
+
+ =>It is mainly used to protect internal data from system 
+services
+*SELinux can run in three different modes:
+>>enforcing: SELinux is ON , it checks SELinux policy and 
+stored a log. 
+
+2.what is IP tables?
+
+>>IP tables is a command-line firewall utility that uses 
+policy chains to allow or block traffic.
+
+3.How to find how many interfaces are connected in 
+linux machine?
+
+>>The ifconfig , ip a command will display the list of all 
+network interfaces on system along with their respective 
+IP address, net mask and additional 
+information.Interfaces like l0, eth0
+>>lo : loopback interface, which is a virtual interface used 
+for communication within the local machine.
+>>eth0 : first ethernet interface.
+
+
+4. Find the command to scan the storage devices?
+>>echo “1” > /sys/class/fc_host/host0/issue_lip
+ Echo “- - -”>/sys/class/scsi_host/host0/scan
+
+6. explain about parent,child and zombie processes?
+
+>>a process is a running instance of a program in linux.
+>>PARENT PROCESS:
+The process created by the kernel is referred to as the 
+‘PARENT PROCESS”.
+To find parent process ID(PPID)
+
+
